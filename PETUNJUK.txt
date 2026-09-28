@@ -1,0 +1,53 @@
+PORTOFOLIO M. SAFII MA'ARIF
+=========================
+
+CARA MENJALANKAN DI WINDOWS
+1. Klik kanan file ZIP, lalu pilih "Extract All" / "Ekstrak Semua".
+2. Buka folder portfolio-safii hasil ekstrak.
+3. Klik dua kali index.html. Halaman akan terbuka di browser.
+
+Tidak perlu memasang Node.js, XAMPP, atau database.
+Ekstrak seluruh folder, jangan hanya membuka index.html dari dalam ZIP.
+
+PILIHAN LAIN: VISUAL STUDIO CODE
+1. Buka folder portfolio-safii melalui File > Open Folder.
+2. Jika sudah memakai ekstensi Live Server, klik kanan index.html,
+   lalu pilih Open with Live Server.
+Live Server bersifat opsional; klik dua kali index.html sudah cukup.
+
+ISI FOLDER
+- index.html : isi dan struktur halaman
+- style.css  : warna, tata letak, dan tampilan responsif
+- script.js  : menu ponsel, penanda navigasi, dan tahun footer
+- assets/safii-portrait.jpeg : foto asli yang diekstrak dari CV
+- assets/CV-M-Safii-Maarif.pdf : salinan CV yang Anda berikan
+- PETUNJUK.txt : panduan ini
+
+CARA MENGUBAH
+- Ubah nama, deskripsi, proyek, dan kontak di index.html.
+- Ubah palet pada bagian :root di awal style.css.
+- Ganti foto dengan nama yang sama atau sesuaikan src di index.html.
+- Ganti PDF di folder assets untuk memperbarui tombol Unduh CV.
+- Simpan file, lalu refresh browser dengan Ctrl+R.
+
+FITUR LOKAL
+Seluruh tampilan, foto, menu, dan detail proyek bekerja dari file lokal.
+Tidak menggunakan CDN, font eksternal, API, atau layanan backend.
+LinkedIn memerlukan internet. Tautan email membuka aplikasi email
+yang sudah dikonfigurasi pada perangkat Anda; pengiriman memerlukan internet.
+Tombol Unduh CV dapat membuka penampil PDF, bergantung pada browser.
+
+CATATAN ISI
+- Isi disusun berdasarkan CV dan tangkapan layar LinkedIn yang diberikan.
+- Tahun pendidikan dan status kelulusan belum dicantumkan karena terdapat
+  perbedaan antara CV dan LinkedIn. Tambahkan setelah datanya dipastikan.
+- Foto berasal dari CV, sehingga ketajamannya mengikuti foto sumber.
+- Detail proyek berupa ringkasan, tanpa tautan demo atau repositori karena
+  tautan tersebut belum diberikan.
+- Halaman belum dipublikasikan. File lokal ini bisa diedit terlebih dahulu.
+
+PEMERIKSAAN DI PERANGKAT ANDA
+- Buka halaman di Chrome atau Edge, lalu ubah ukuran jendela.
+- Pada tampilan kecil, coba tombol Menu dan pilih bagian halaman.
+- Klik Pelajari proyek untuk membuka/menutup penjelasan.
+- Coba tombol Unduh CV dan tautan kontak.
